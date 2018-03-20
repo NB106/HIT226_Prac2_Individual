@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #5176AE;
+  color: #000;
+  font-family: sans-serif,serif;
+  padding: 7%;
+}
+.container{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+}
+.wrapper{
+  box-shadow: 0 0 5px 0;
+}
+.info{
+  background: #8C9097;
+  border: 1.5px solid #F48A10;
+}
+.info h1{
+  text-align: center;
+}
+.infoform{
+  background: #BCB9B6;
+}
+.infoform form label{
+  font-weight: bold;
+  display: block;
+}
+.infoform form p{
+  margin-top: 0;
+}
+
+.infoform,
+.infoform form input,
+.infoform form select,
+.infoform form  button{
+  font-size: 120%;
+  font-weight: bold;
+  width: 100%;
+  padding: 3%;
+  border: 1.5px solid #F48A10;
+}
